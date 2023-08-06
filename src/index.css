@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.maped .cardPlants {
+    border: 1px solid rgb(202, 202, 202);
+    width: 425px;
+    display: flex;
+    border-radius: 10px;
+    height: 190px !important;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,45 @@
+.Mobile{
+    display: none;
+}
+
+.mobile_home{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.bbs{
+    margin-left: -6px;
+    margin-top: -6px;
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    font-size: 11px;
+    font-weight: 800;
+    color: rgb(7, 7, 7);
+    background: white;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.mobile_item{
+    text-align: center;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .Mobile{
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+       z-index: 99;
+        bottom: 0;
+       width: 100%;
+       color: black !important;
+       background-color: rgb(247, 247, 247);
+       align-items: center;
+       border-top: 3px solid rgba(93, 188, 194, 1.00);
+    }
+    .Mobile h6{
+        color: black;
+    }
+}
